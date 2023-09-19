@@ -3,3 +3,30 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+
+
+
+@media screen and (max-width: 576px) {
+    .bottles-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+
+    #root {
+        max-width: 1280px;
+        margin: 0;
+        padding: 0;
+      }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .bottles-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #root {
+        max-width: 1280px;
+        margin: 0;
+        padding: 0;
+      }
+}

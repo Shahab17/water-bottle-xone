@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'; 
 
 import './Bottle.css' 
+import '../Cart/Cart.css'
 
 const Bottle = ({bottleData, handleAddToCart}) => {
     // console.log(bottleData)
@@ -12,7 +13,7 @@ const Bottle = ({bottleData, handleAddToCart}) => {
             <img src={img} alt="" />
             <h5> Name: {name} </h5>
             <p>Price: ${price} </p>
-            <button onClick={()=>handleAddToCart(bottleData)} >Purchase</button>
+            <button className='btn-bg' onClick={()=>handleAddToCart(bottleData)} >Purchase</button>
         </div>
     );
 };

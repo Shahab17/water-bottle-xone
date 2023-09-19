@@ -10,3 +10,12 @@
     align-items: center;
     gap: 10px;
 }
+
+.btn-bg{
+
+    border: none;
+
+    /* background-color: gray; */
+    /* background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%); */
+    background-image: linear-gradient(to right, #e0e3e9 0%, #2c61b6 100%);
+}
